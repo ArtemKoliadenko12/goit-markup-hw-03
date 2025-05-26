@@ -156,6 +156,7 @@ ul {
     border-radius: 4px;
     border: none;  
     padding: 16px 32px;
+    margin: 0 auto;
     margin-top: 48px;
 }
 
@@ -255,7 +256,7 @@ ul {
     text-align: center;
 }
 
-.container-portfolio {
+.container .container-portfolio {
     border: 1px solid #e7e9fc;
 }
 
@@ -278,7 +279,7 @@ ul {
 }
 
 .portfolio-item{
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
