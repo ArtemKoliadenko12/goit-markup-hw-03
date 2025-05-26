@@ -257,9 +257,9 @@ ul {
     text-align: center;
 }
 
-.container .container-portfolio {
+ .container-portfolio { 
     border: 1px solid #e7e9fc;
-}
+ }
 
 .portfolio-title{
     text-transform: capitalize;
@@ -287,10 +287,10 @@ ul {
 }
 
 .portfolio-group {
-padding-top: 32px;
-padding-bottom: 32px;
-padding-right: 16px;
-padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 .portfolio-subtitle{
