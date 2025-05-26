@@ -4,6 +4,10 @@ body{
     color: #434455;
 }
 
+.header-cnt {
+     border-bottom: 1px solid #e7e9fc;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
@@ -126,7 +130,7 @@ ul {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin: 0 auto;  
-    width: 496px;  
+    max-width: 496px;  
 }
 
 .main-sct {
@@ -146,6 +150,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: block;
     min-width: 169px;  
     height: 56px;
     border-radius: 4px;
@@ -157,6 +162,18 @@ ul {
 .main-button:hover,
 .main-button:focus{
     background-color: #404bbf;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .main-subtitle{
@@ -238,6 +255,10 @@ ul {
     text-align: center;
 }
 
+.container-portfolio {
+    border: 1px solid #e7e9fc;
+}
+
 .portfolio-title{
     text-transform: capitalize;
     font-weight: 700;
@@ -300,6 +321,8 @@ footer{
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
     
 }
 
